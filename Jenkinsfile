@@ -5,11 +5,6 @@ pipeline{
     }
     
     stages{
-        stage('src_code'){
-            steps{
-                git 'https://github.com/ShilpaBKShetty/GitMavenJar.git'
-            }
-        }
         
         stage('clean'){
             steps{
